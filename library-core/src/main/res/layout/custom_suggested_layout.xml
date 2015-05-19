@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ *******************************************************************************
+  ~   Copyright (c) 2013-2014 Gabriele Mariotti.
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~  *****************************************************************************
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="#FFFFFF"
+              style="@style/card"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <!-- Card visible layout -->
+    <it.gmariotti.cardslib.library.view.ForegroundLinearLayout
+        android:id="@+id/card_main_layout"
+        style="@style/card.native.main_layout_foreground"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <it.gmariotti.cardslib.library.view.component.CardHeaderView
+            style="@style/card.native.header_outer_layout.nomargin"
+            android:id="@+id/card_header_layout"
+            android:layout_width="match_parent"
+            card:card_header_layout_resourceID="@layout/native_suggested_header_layout"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <it.gmariotti.cardslib.library.view.component.CardThumbnailView
+                android:id="@+id/suggested_card_thumbnail_layout"
+                style="@style/card.native.card_thumbnail_outer_layout"
+                card:card_thumbnail_layout_resourceID="@layout/custom_base_thumbnail_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <!-- Main Content View -->
+            <RelativeLayout
+                android:id="@+id/card_main_content_layout"
+                style="@style/card.native.content_outer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/suggested_title"
+                        style="@style/suggested_text_bold"
+                        android:text="Fifa Challenge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/suggested_member"
+                        android:paddingTop="5dp"
+                        style="@style/suggested_text"
+                        android:text="10 friends are attending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/suggested_add"
+                        android:layout_below="@+id/suggested_title"
+                        android:visibility="gone"
+                        android:layout_toRightOf="@+id/suggested_subtitle"
+                        android:layout_toEndOf="@+id/suggested_subtitle"/>
+
+                    <TextView
+                        android:id="@+id/suggested_subtitle"
+                        style="@style/suggested_text"
+                        android:paddingTop="5dp"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/suggested_member"
+                        android:layout_toLeftOf="@+id/suggested_add"
+                        android:layout_toStartOf="@+id/suggested_add"/>
+                    <TextView
+                        android:id="@+id/suggested_add"
+                        android:padding="5dp"
+                        android:background="@drawable/mayknow_add"
+                        style="@style/suggested_text_bold1"
+                        android:text="Add "
+                        android:layout_margin="4dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/suggested_subtitle"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </it.gmariotti.cardslib.library.view.ForegroundLinearLayout>
+
+</LinearLayout>

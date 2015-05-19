@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/event_id_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/sea"
+            android:layout_height="400dp"
+            android:id="@+id/event_image_fragment"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_rating_fragment"
+            android:layout_alignBottom="@+id/event_image_fragment"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/camera_icon"
+            android:layout_margin="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_camera"
+            android:layout_alignBottom="@+id/event_image_fragment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+        <LinearLayout
+            android:id="@+id/event_description_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/event_image_fragment"
+            android:padding="7dp"
+            android:background="@drawable/description_background"
+            >
+
+            <TextView
+                android:id="@+id/event_description_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:padding="7dp"
+                android:layout_below="@+id/event_image"
+                android:layout_alignRight="@+id/camera_icon"
+                android:layout_alignEnd="@+id/camera_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:ems="10"
+                android:gravity="right"
+                android:id="@+id/event_author_username_fragment"
+                android:layout_below="@+id/event_description"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+        </LinearLayout>
+
+        <it.gmariotti.cardslib.library.view.CardViewNative
+            android:id="@+id/card_suggested_fragment"
+            style="@style/card_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/event_description_layout"
+            />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ *******************************************************************************
+  ~   Copyright (c) 2013-2014 Gabriele Mariotti.
+  ~
+  ~   Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~  *****************************************************************************
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card="http://schemas.android.com/apk/res-auto"
+              xmlns:app="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <!-- Card visible layout -->
+    <it.gmariotti.cardslib.library.view.ForegroundLinearLayout
+        android:id="@+id/card_main_layout"
+        style="@style/card.native.main_layout_foreground"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Compound view for Header Card
+             If you want to customize this element use attr card:card_header_layout_resourceID
+             You can also use your CardHeader subclass-->
+        <it.gmariotti.cardslib.library.view.component.CardHeaderView
+            style="@style/card.native.header_outer_layout"
+            android:id="@+id/card_header_layout"
+            android:layout_width="match_parent"
+            card:card_header_layout_resourceID="@layout/native_base_header_layout"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/card_thumb_and_content_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <it.gmariotti.cardslib.library.view.component.CardThumbnailView
+                style="@style/card.native.card_thumbnail_outer_layout"
+                android:id="@+id/card_thumbnail_layout"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                card:card_thumbnail_layout_resourceID="@layout/custom_thumbnail_layout"
+                android:layout_height="match_parent" />
+            <!--<it.gmariotti.cardslib.library.view.component.CardThumbnailView
+                style="@style/card.native.card_thumbnail_outer_layout"
+                android:id="@+id/card_thumbnail_layout"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                card:card_thumbnail_layout_resourceID="@layout/native_base_thumbnail_layout"
+                android:layout_height="100dp"/>-->
+
+
+            <!-- Main Content View -->
+            <RelativeLayout
+                android:id="@+id/card_main_content_layout"
+                style="@style/card.native.content_outer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/event_location_label"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="At:" />
+
+                <TextView
+                    android:id="@+id/event_location"
+                    android:layout_width="wrap_content"
+                    android:text="Location"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_above="@+id/event_registration_label"
+                    android:layout_toRightOf="@+id/event_location_label"
+                    android:layout_toEndOf="@+id/event_location_label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.2"
+                    android:textSize="26sp"
+                    android:id="@+id/event_rating"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/icon_star"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_id"
+                    android:visibility="gone"
+                    android:layout_alignBottom="@+id/event_rating"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/icon_star"
+                    android:src="@drawable/ic_action"
+                    
+                    android:layout_alignLeft="@+id/event_rating"
+                    android:layout_alignStart="@+id/event_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registration:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/event_registration_label"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@+id/event_location_label"
+                    android:layout_below="@+id/event_location_label"
+                    android:layout_alignStart="@+id/event_location_label"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/event_registration_fee"
+                    android:layout_above="@+id/event_attendance"
+                    android:layout_toRightOf="@+id/event_registration_label"
+                    android:layout_toEndOf="@+id/event_registration_label" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 people are attending"
+                    android:id="@+id/event_attendance"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/event_registration_label"
+                    android:layout_toRightOf="@+id/event_id"
+                    android:layout_toEndOf="@+id/event_id" />
+                <org.lucasr.twowayview.widget.TwoWayView
+                    android:id="@+id/friends_attending_strip"
+                    android:layout_below="@+id/event_attendance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:twowayview_layoutManager="ListLayoutManager"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </it.gmariotti.cardslib.library.view.ForegroundLinearLayout>
+
+    <!-- Expand layout. You can customize this element with your CardExpand class -->
+    <FrameLayout
+        android:id="@+id/card_content_expand_layout"
+        style="@style/card.native.main_contentExpand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </FrameLayout>
+
+</LinearLayout>

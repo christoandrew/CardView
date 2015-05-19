@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\viewpageindicator\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="895256870b7a7f8af2de7fc6544d3b56a6de3563">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-67cc4be5b57473132e94dd7f74d0a27fd382951a.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-51245b54001924a8308aa6f03e570f809954353d.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-f47140fcb7ca2946a2d28bbf2439518c4164cf7d.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\core\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ef0ef6a3010d3ec66394aae02f9d1ae3054d6f2">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-48457da627f018a5b3a553634cc0fed314f92de6.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-e6e997ecfe856802c1411cf14d77d9d1d0ed3e7e.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.facebook.android\facebook\3.20.0\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-dead7ee8ecf17d20dfe6ce8cde58fd82c299caf7.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\progress-wheel\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c03b010c8f04b17fcefb80a8d95235953f2d0bd0">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-2041a8e178911f77ef9dc2d1065c21365a94fc62.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-2c7b3f93a4765de67fc456e30fee656c798d7e65.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\libs\universal-image-loader-1.9.3-with-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03e3948d42b8d78961a092a184af66bd86da42e6">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-with-sources-bb3fffa53d218e14aab3735796f20c1a3b686bfc.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-134ee764095006509606ddbbb338adfd86026e32.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\layouts\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0731117f588ce3349c8d9a01a91dbb325fec3a49">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-325abdf2b17b39045060db31b71f586cec6ee949.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.1.32\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="826507592fec9d8e26db18364e709df133c749ce">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-b640afa3a75d36264953904d4c3fb6c5264f80f5.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.facebook.android\facebook\3.20.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="70256e9cffc7f7b5374658f44603df5d17d6f555">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-88f7a96a49403c7b4925ec94e01626d25e20c4a4.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\libs\twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-894bcfb0ee6f382d133d14f48310bd0d6ad1f620.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8b75230db54e5c5bce22b2b9f1ab28683c5298c1.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-b5c686b37fac3c821cb91668d3a924ca9d9d5552.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\library-core\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b26673209151e8c77b14b52a407d844cc5e1b3ab">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-c9f4c89aae45dba1e636fad55fd13b375521a41a.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\CardView\sweet_dialog\1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37c78cc59868511ad0afb8f56197e822e162af05">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-ffe67e819c17fbb2e4b0c8a5a9eafdaafab141a8.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProjects\CardView\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\AndroidProjects\CardView\app\build\intermediates\pre-dexed\debug\classes-21bb5ff7babcfbf0f6616528a614d7d54fa97c0e.jar" />
+    </item>
+
+</items>

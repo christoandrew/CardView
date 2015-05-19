@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_background_height">200dp</dimen>
+    <dimen name="list_view_height">385dp</dimen>
+    <dimen name="profile_pic_height">200dp</dimen>
+    <dimen name="profile_pic_margin_top">100dp</dimen>
+    <dimen name="text_size_profile_username">32sp</dimen>
+</resources>

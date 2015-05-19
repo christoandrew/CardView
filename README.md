@@ -1,0 +1,2 @@
+# TruGamerz
+An events application

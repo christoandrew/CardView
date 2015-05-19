@@ -1,0 +1,2 @@
+include ':app', ':library-core', ':facebook', ':core', ':layouts', ':sweet_dialog', ':progress-wheel', ':extra-staggeredgrid', ':etsy'
+include ':viewpageindicator'
